@@ -1,0 +1,62 @@
+body{ /*call the whole body so all the elements on body u can change*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+
+}
+
+#calculator{   /*call the most imortant div the main one with "#" so u call everything  */
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+
+}
+#display{ /* call the input id so u can costumize it while using #*/
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    border: none;
+    text-align: left;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+}
+
+#keys{  /* u call the div with the id keys and the # so u call everything because it contains every button */
+display: grid;
+ grid-template-columns: repeat(4, 1fr);  /*u use the attribute grid-template-columns and repeat and u want 4 columns adn use fr for evenly and using 3 sets 3 columns  */
+ gap: 10px;
+ padding: 10px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.operator-btn{
+    background-color: orange;
+}
+.operator-btn:hover{
+    background-color: hsl(39, 100%, 65%);
+}
+.operator-btn:active{
+    background-color: hsl(39, 100%, 75%);
+}
