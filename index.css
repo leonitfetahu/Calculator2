@@ -1,4 +1,4 @@
-body{ /*call the whole body so all the elements on body u can change*/
+body{ 
     margin: 0;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@ body{ /*call the whole body so all the elements on body u can change*/
 
 }
 
-#calculator{   /*call the most imortant div the main one with "#" so u call everything  */
+#calculator{   
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 20%);
     border-radius: 15px;
@@ -16,7 +16,7 @@ body{ /*call the whole body so all the elements on body u can change*/
     overflow: hidden;
 
 }
-#display{ /* call the input id so u can costumize it while using #*/
+#display{ 
     width: 100%;
     padding: 20px;
     font-size: 5rem;
@@ -26,9 +26,9 @@ body{ /*call the whole body so all the elements on body u can change*/
     color: white;
 }
 
-#keys{  /* u call the div with the id keys and the # so u call everything because it contains every button */
+#keys{  
 display: grid;
- grid-template-columns: repeat(4, 1fr);  /*u use the attribute grid-template-columns and repeat and u want 4 columns adn use fr for evenly and using 3 sets 3 columns  */
+ grid-template-columns: repeat(4, 1fr);  
  gap: 10px;
  padding: 10px;
 }
